@@ -24,7 +24,7 @@ public class Main {
             if (n == weightSecond.length - 1) {
                 System.out.print(weightSecond[n] + ".");
                 break;
-            } else{
+            } else {
                 System.out.print(weightSecond[n] + ", ");
             }
         }
@@ -50,7 +50,7 @@ public class Main {
         System.out.print("1)");
         for (int b = weightBack.length - 1; b >= 0 && b < weightBack.length; b--) {
             weightBack[b] = b + 1;
-            if (b == 0){
+            if (b == 0) {
                 System.out.print(weightBack[b] + ".");
                 break;
             } else {
@@ -91,7 +91,6 @@ public class Main {
         System.out.println("Задание 4:");
         int[] first = {1, 2, 3};
         for (int a = 0; a < first.length; a++) {
-            first[a] = a + 1;
             if (first[a] % 2 != 0) {
                 first[a] = first[a] + 1;
             }
