@@ -88,7 +88,7 @@ public class Main {
 
         System.out.println();
 
-        System.out.println("Задание 4:");
+        System.out.println("Задание 4: ");
         int[] first = {1, 2, 3};
         for (int a = 0; a < first.length; a++) {
             if (first[a] % 2 != 0) {
